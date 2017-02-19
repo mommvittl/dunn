@@ -1,0 +1,74 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong,  tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2; 
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+p { word-wrap: break-word;}
+* {  box-sizing: border-box;}
+/* конец кода сброса стилей браузера */
+html { height: 100%; }
+body { background:#FDF5E6; position: relative; height: 100%;}
+h1 { font: 1.5em/1.2em Arial; text-align: center; }
+/* пользовательские стили */
+.clearfix:after { content: " "; display: table; width: 100%; clear: both;}
+.outDiv { width: 100%; max-width: 1200px; margin: 0 auto; background: #87AEC1; height: 100%;position: relative; }
+.header {  background:  #376278;  color:  #DAEAF2; font: 2em/3em arial; }
+
+.selectStr { padding: 10px; color: aliceblue;  }
+.paginationSize {  float: right; margin-right: 10px;  }
+
+.stringPagePointer { margin-bottom: 4px; margin-top: 4px; text-align: center; }
+.stringPagePointer span { margin-left: 5px; margin-right: 5px; font: 1.5rem/1.8rem arial; padding: 1px 7px; border-radius: 5px; color: #696969; } 
+.stringPagePointer .activePagePointer { cursor: pointer; border: 1px solid black; background: #BF8029; }
+.stringPagePointer .passivePagePointer { cursor: pointer; border: 1px solid black; background: #D3D3D3; }
+.stringPagePointer .noPagePinter { background: transparent; }
+
+.resultTable { width: 100%; background: #8B4513; position: relative; }
+.resultTable th { padding: 1px 5px; color:  #FFFACD;  }
+.resultTable td { padding: 1px 5px; background: #FFFACD; color: #556B2F; cursor: pointer; }
+
+.sectionContent {  text-align: center; color: floralwhite;  }
+.sectionContent h2 { font: 1.5em/1.8em arial; color: #ECECEC; }
+
+.mainnav { display: table-row; width: 100%; text-align: justify; background: #99CCCC; cursor: pointer;}
+.mainnav span {width: auto; display: table-cell; text-align: center; padding: 3px; border-left: 1px solid black;}
+.mainnav span:first-of-type { border-left: none;}
+.mainnav span a {width: 1000px; display: table-cell; text-decoration: none; font: 1em arial; color: #336666; }
+.mainnav span > span {width: 1000px; display: table-cell; text-decoration: none; font: 1em arial; color: #336666; vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
